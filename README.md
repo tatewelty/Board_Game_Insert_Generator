@@ -17,11 +17,11 @@ For a complete list of parameters and their uses please check out the data dicti
 - **Global Parameters**
   - **Additional Component Buffer**: extra space added to all side of each component to ensure a good fit
   - **Min Distance Between Cutouts**: distance you want between each component in the insert
--**Box Parameters**: the size of your box.  No buffer or anything else is added to these dimensions.
--**Components**: The shapes of what you would like to store in the insert.
-  -**Rectangular Prism**
-  -**Cylindar**
-  -**Triangular Prism**
+- **Box Parameters**: the size of your box.  No buffer or anything else is added to these dimensions.
+- **Components**: The shapes of what you would like to store in the insert.
+  - **Rectangular Prism**
+  - **Cylindar**
+  - **Triangular Prism**
 > **Tip**: For odd-shaped items like hex tiles or miniatures, use a rectangular prism that encloses the shape.  This will leave space in corners, making it easier to take the component out.
 
 ### Part 2: Generate the Insert
