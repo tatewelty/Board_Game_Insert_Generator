@@ -7,6 +7,17 @@ To make this worse, expansions are sold in separate boxes, and their components 
 ### Solution:
 This program allows you to generate 3D-printable .stl files for custom inserts that organize and store your components in a single box.  Including base game and expansion components.
 
+<table>
+  <tr>
+    <td>Before</td>
+    <td>After</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/61890de9-cd34-441f-ac88-44b7c11563b8"></td>
+    <td><img src="https://github.com/user-attachments/assets/8ef5a63b-5f54-4a06-9fab-277c18ad0084"></td>
+  </tr>
+</table>
+
 ## How it works
 
 ### Part 1: Define Inputs
