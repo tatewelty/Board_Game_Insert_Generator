@@ -22,8 +22,8 @@ This program allows you to generate 3D-printable .stl files for custom inserts t
 
 ### Part 1: Define Inputs
 
-Start by describing your game box and the components you would like to store.
-For a complete list of parameters and their uses, please check out the data dictionary:
+Start by describing your game box and the components you would like to store.  
+For a complete list of parameters and their uses, please check out the [data dictionary:](docs/data_dictionary.md)
 - **Units**: choose between millimeters, centimeters, or inches.  All values will be converted to your chosen unit.
 - **Global Parameters**
   - **Additional Component Buffer**: extra space added to all sides of each component to ensure a good fit
@@ -38,11 +38,14 @@ For a complete list of parameters and their uses, please check out the data dict
 ![image](https://github.com/user-attachments/assets/32b3890e-0c78-4c77-9fe2-d743a9aa5eed)
 
 ### Part 2: Generate the Insert
+If you run in to any issues in the section check out [Common Errors and Debugging](docs/Common_Errors.md)  
 Once you have defined your components, the program will:
 1. **Generate 2D Shapes**: Each component is flatteded to its 2D shape
 2. **Pack 2D Shapes**: A *lower-left greedy* packing algorithm places components into the box making a full 2D footprint
 3. **3D Model**: The 2D layout is converted into a 3D model by extruding each component based on its height
 4. **Generate STL**: Generates the final insert as a .stl file
 
-![image](https://github.com/user-attachments/assets/ef96c4c6-7b9b-4483-8c39-0c58edd2ac49)
+![image](https://github.com/user-attachments/assets/ef96c4c6-7b9b-4483-8c39-0c58edd2ac49)  
+After that you'll have saved a .stl file, and will be able to import and print it.
+>**Tip**: Make sure to import using the same units as your .stl was generated with
 
