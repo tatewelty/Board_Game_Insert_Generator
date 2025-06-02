@@ -23,6 +23,7 @@ For a complete list of parameters and their uses, please check out the data dict
   - **Cylindar**
   - **Triangular Prism**
 > **Tip**: For odd-shaped items like hex tiles or miniatures, use a rectangular prism that encloses the shape.  This will leave space in corners, making it easier to take the component out.
+
 ![image](https://github.com/user-attachments/assets/32b3890e-0c78-4c77-9fe2-d743a9aa5eed)
 
 ### Part 2: Generate the Insert
