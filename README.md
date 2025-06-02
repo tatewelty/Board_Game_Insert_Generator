@@ -43,5 +43,6 @@ Once you have defined your components, the program will:
 2. **Pack 2D Shapes**: A *lower-left greedy* packing algorithm places components into the box making a full 2D footprint
 3. **3D Model**: The 2D layout is converted into a 3D model by extruding each component based on its height
 4. **Generate STL**: Generates the final insert as a .stl file
+
 ![image](https://github.com/user-attachments/assets/ef96c4c6-7b9b-4483-8c39-0c58edd2ac49)
 
