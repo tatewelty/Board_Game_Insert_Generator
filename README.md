@@ -38,9 +38,9 @@ For a complete list of parameters and their uses, please check out the [data dic
 ![image](https://github.com/user-attachments/assets/32b3890e-0c78-4c77-9fe2-d743a9aa5eed)
 
 ### Part 2: Generate the Insert
-If you run in to any issues in the section check out [Common Errors and Debugging](docs/Common_Errors.md)  
+If you run into any issues in the section, check out [Common Errors and Debugging](docs/Common_Errors.md)  
 Once you have defined your components, the program will:
-1. **Generate 2D Shapes**: Each component is flatteded to its 2D shape
+1. **Generate 2D Shapes**: Each component is flattened to its 2D shape
 2. **Pack 2D Shapes**: A *lower-left greedy* packing algorithm places components into the box making a full 2D footprint
 3. **3D Model**: The 2D layout is converted into a 3D model by extruding each component based on its height
 4. **Generate STL**: Generates the final insert as a .stl file
